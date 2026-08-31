@@ -12,18 +12,11 @@
 </style>
 </head>
 <body>
-  <iframe 
-    id="app"
-    src="https://script.google.com/macros/s/AKfycbzX40LvvnzADqY_yGuTdgiI1ndtu83ZMBMYzwW_MSplZ3m2ML341lFYuj7MFegGbEgC/exec?page=beranda" 
-    allow="geolocation; camera">
-  </iframe>
+  <iframe id="app" src="https://script.google.com/macros/s/AKfycbzX40LvvnzADqY_yGuTdgiI1ndtu83ZMBMYzwW_MSplZ3m2ML341lFYuj7MFegGbEgC/exec?page=beranda" allow="geolocation; camera"></iframe>
   <script>
-    // Biar ?page=produk di github pages kebaca sama GAS
-    const urlParams = new URLSearchParams(window.location.search);
-    if(urlParams.has('page')){
-      const gasBase = "https://script.google.com/macros/s/AKfycbzX40LvvnzADqY_yGuTdgiI1ndtu83ZMBMYzwW_MSplZ3m2ML341lFYuj7MFegGbEgC/exec";
-      document.getElementById('app').src = gasBase + window.location.search;
-    }
+    const GAS_BASE = "https://script.google.com/macros/s/AKfycbzX40LvvnzADqY_yGuTdgiI1ndtu83ZMBMYzwW_MSplZ3m2ML341lFYuj7MFegGbEgC/exec";
+    const q = window.location.search;
+    document.getElementById('app').src = GAS_BASE + (q || "?page=beranda");
   </script>
 </body>
 </html>
