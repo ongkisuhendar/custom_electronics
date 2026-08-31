@@ -1,19 +1,10 @@
 {
-  "name": "OSO TASIKMALAYA - Custom Electronics",
+  "name": "OSO - Custom Electronics",
   "short_name": "OSO CUSTOM",
-  "description": "Aplikasi custom electronics, rakit power amplifier, IoT, dan servis elektronik OSO Tasikmalaya.",
-  "start_url": "/custom_electronics/?page=beranda",
+  "start_url": "/custom_electronics/",
   "scope": "/custom_electronics/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#e8f5f0",
-  "theme_color": "#0f766e",
-  "icons": [
-    {
-      "src": "group.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
+  "theme_color": "#0f766e"
 }
