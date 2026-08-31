@@ -1,0 +1,13 @@
+  {
+    
+  "name": "OSO TASIKMALAYA",
+  "short_name": "OSO",
+  "description": " custom electronics engineering
+From Idea to Tested Hardware.
+Perancangan elektronik custom dari schematic, PCB design, firmware, prototype, assembly sampai testing. Fokus pada ESP32, STM32, IoT dan perangkat elektronik sesuai kebutuhan project.",
+  "start_url": "/custom_electronics/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+}
